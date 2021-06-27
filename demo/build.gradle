@@ -1,0 +1,7 @@
+apply plugin:'application'
+
+mainClassName = "de.julian.calendar.thesis.JCalendarFrame"
+
+dependencies {
+    compile project(':library')
+}
